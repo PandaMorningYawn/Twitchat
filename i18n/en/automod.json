@@ -13,11 +13,11 @@
 					"",
 					"Bots like <a href=\"https://nightbot.tv\" target=\"_blank\">Nightbot</a> or <a href=\"https://wizebot.tv/index\" target=\"_blank\">Wizebot</a> allow you to filter messages with complex rules via what's called <a href=\"https://en.wikipedia.org/wiki/Regular_expression\" target=\"_blank\">Regular Expressions</a>.",
 					"",
-					"<strong>Twitchat's</strong> automod feature allows you to use Regular Expressions but also tries to make usage of alternative chars useless for bypassing automod rules.",
-					"Before applying a rule it will replace all alternative chars, including accented ones, by their latin equivalent.",
+					"<strong>Twitchat's</strong> automod feature allows you to use Regular Expressions, but also tries to make usage of alternative chars useless for bypassing automod rules.",
+					"Before applying a rule, it will replace all alternative chars, including accented ones, by their latin equivalent.",
 					"For example, <mark>𝕥🅦ⓘ𝒕𝓬🄷🇦🇹</mark> will be replaced by <mark>twitchat</mark> before applying automod rules on it.",
 					"",
-					"<strong>Warning</strong> though, this process has its cost on performances and may slowdown twitchat a little if you have many rules and receive lots of messages."
+					"<strong>Warning</strong> though, this process has its cost on performance and may slow down twitchat a little if you have many rules and receive lots of messages."
 				]
 			},
 			"delete":{
@@ -43,11 +43,11 @@
 			"name":"Rule name",
 			"keywords":"Rule (accepts <a href=\"https://en.wikipedia.org/wiki/Regular_expression\" target=\"_blank\">Regexp</a> - <a href=\"https://regexr.com\" target=\"_blank\">Test your regexp</a>)",
 			"sync":"Save to server",
-			"sync_tt":"If the rule contains personnal information you can choose not to save it on server. You'll loose it if you clean your cookies.",
+			"sync_tt":"If the rule contains personal information you can choose not to save it on the server. You'll lose it if you clear your cookies.",
 			"emergency":"Start emergency mode",
 			"emergency_tt":"If a message matches this rule, the emergency mode will be enabled",
 			"firstTime":"Apply to first time chatters only",
-			"firstTime_tt":"Apply this rule only to first message ever of a user on your chat",
+			"firstTime_tt":"Apply this rule to a user's first message <u>ever</u> in your chat",
 			"invalid_rule":"Invalid rule"
 		},
 		"test": {
